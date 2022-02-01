@@ -5,7 +5,12 @@ const app = express();
 app.get('/', (req, res) => {
   res
     .status(200)
-    .send('<h1>Welcome to Alerts API 😀</h1> <p>put the endpoint for easy use</p>')
+    .send('<h1>Welcome to Alerts API 😀</h1> <p>put the endpoint for easy use</p> \
+    <li> /alerts </li>\
+    <li> /agents</li>\
+    <li> /agents/id</li>\
+    <li>/rules</li>\
+    <li>/rules/id</li>')
     .end();
 });
 
