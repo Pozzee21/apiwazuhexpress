@@ -1,0 +1,7610 @@
+[
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "23Gmr3QB4YtWQbLv1inX",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T18:30:45.569+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "004",
+        "name": "Ubuntu",
+        "ip": "47.204.15.21"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/run/utmp",
+        "uname_after": "NETWORK Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T19:40:09.863Z",
+        "size_after": 18,
+        "uid_after": "S-1-5-18",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 41722
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "3XGmr3QB4YtWQbLv1inX",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T02:29:46.344+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/var/osquery/osquery.db/CURRENT",
+        "uname_after": "ossec",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T08:26:44.884Z",
+        "size_after": 60,
+        "uid_after": "S-1-5-18",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 65060,
+        "mtime_before": "2020-09-16T08:25:44.884Z",
+        "inode_before": 21266,
+        "sha1_after": "27f676d71504bb7b005a0b73c735a7b381a16fd1",
+        "changed_attributes": [
+          "sha1"
+        ],
+        "md5_after": "7edd50c699ad5a9dfbe81aafabaeed27",
+        "sha256_after": "ff9a6a109a9a5584752c74ecbbb82bed50231d795da85daad7782138a23e"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "4HGmr3QB4YtWQbLv1inX",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T04:59:28.707+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/elasticsearch/elasticsearch.yml",
+        "uname_after": "NETWORK Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T18:45:08.960Z",
+        "size_after": 35,
+        "uid_after": "S-1-5-19",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 31866,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "ca418b1e5eeaf72b5de9ab1200dba7ee74696856",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 44889,
+            "ppid": 97006
+          },
+          "effective_user": {
+            "name": "NETWORK Service",
+            "id": 39
+          },
+          "user": {
+            "name": "SYSTEM",
+            "id": 43
+          },
+          "group": {
+            "name": "ec2-user",
+            "id": 22
+          }
+        },
+        "md5_after": "82d296600d8f325a02513e776582f4ba",
+        "sha256_after": "dcc7f35d252bbd2af4f8d3191ff64435df200b78cc4cbebdd6b6bdf9d307"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "4nGmr3QB4YtWQbLv1inX",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T02:12:52.608+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/etc/filebeat/fields.yml",
+        "uname_after": "ec2-user",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T13:19:34.557Z",
+        "size_after": 5,
+        "uid_after": "0",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 25452
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "53Gmr3QB4YtWQbLv1inX",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-21T08:03:29.251+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/run/utmp",
+        "uname_after": "SYSTEM",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T14:20:23.164Z",
+        "size_after": 12,
+        "uid_after": "996",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 71215,
+        "mtime_before": "2020-09-15T14:19:23.164Z",
+        "inode_before": 63623,
+        "sha1_after": "864ce50ed3969f7ad569d6946f92468e086bac75",
+        "changed_attributes": [
+          "md5"
+        ],
+        "md5_after": "1ad910bc5557bc6b65809affb4db9b87",
+        "sha256_after": "160f75d9c048e3ff4a38f440609a161672ccd467b7fc84b4c0faf5b977cc"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "6HGmr3QB4YtWQbLv1inX",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T14:26:17.220+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/etc/resolv.conf",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T02:25:44.999Z",
+        "size_after": 54,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 99588,
+        "mtime_before": "2020-09-16T02:24:44.999Z",
+        "inode_before": 44281,
+        "sha1_after": "c911b412d716e585afa18a15a8b2d37b740d4791",
+        "changed_attributes": [
+          "inode"
+        ],
+        "md5_after": "7e5d12cdac2ae1e60765011b80d11e7a",
+        "sha256_after": "ef160ea529e70382566f24efa388e794113cd4919cc0df5fb017a896caf6"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "63Gmr3QB4YtWQbLv1inY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T06:09:09.457+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/ossec/queue/fim/db/fim.db",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T14:18:20.416Z",
+        "size_after": 34,
+        "uid_after": "S-1-5-19",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 8578,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "2fb7ea22c43817be65ef6f7db7000f611adc2a52",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 34935,
+            "ppid": 29721
+          },
+          "effective_user": {
+            "name": "LOCAL Service",
+            "id": 2
+          },
+          "user": {
+            "name": "LOCAL Service",
+            "id": 84
+          },
+          "group": {
+            "name": "wazuh",
+            "id": 85
+          }
+        },
+        "md5_after": "9d62bc4ef9370269ffaa4c856bdb1214",
+        "sha256_after": "cecdd43f1912b1fd6e0e9e930038e1f23a6be12d899778e71ecffddf071b"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "8nGmr3QB4YtWQbLv1inY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T00:52:41.533+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/tmp/agent.conf",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T19:29:41.105Z",
+        "size_after": 5,
+        "uid_after": "996",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 33566
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "83Gmr3QB4YtWQbLv1inY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T00:17:24.428+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "c:\\program files (x86)\\ossec-agent\\ossec-agent.state",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T11:11:42.083Z",
+        "size_after": 3,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 77297,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "498fca4320c8cceb41435da01581b008c5bc694b",
+        "audit": {
+          "process": {
+            "name": "/tmp/sample",
+            "id": 43615,
+            "ppid": 81227
+          },
+          "effective_user": {
+            "name": "NETWORK Service",
+            "id": 8
+          },
+          "user": {
+            "name": "ossecm",
+            "id": 3
+          },
+          "group": {
+            "name": "ossecm",
+            "id": 0
+          }
+        },
+        "md5_after": "30567f745e09004da83296751dd33cdb",
+        "sha256_after": "22ac9b013e3ee3577fe0fa7fb702f17d054e31637368d23f40922800eb0e"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "9XGmr3QB4YtWQbLv1inY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-21T04:40:43.585+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/run/utmp",
+        "uname_after": "NETWORK Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T20:23:58.345Z",
+        "size_after": 28,
+        "uid_after": "S-1-5-18",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 73607
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "93Gmr3QB4YtWQbLv1inY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T22:54:55.629+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "c:\\programdata\\microsoft\\windows defender\\scans\\mpenginedb.db-wal",
+        "uname_after": "SYSTEM",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T23:50:05.670Z",
+        "size_after": 52,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 64611,
+        "mtime_before": "2020-09-18T23:49:05.670Z",
+        "inode_before": 77830,
+        "sha1_after": "6c4054f4b7c2bc694896f489eb86c6145f0a8ec4",
+        "changed_attributes": [
+          "mtime"
+        ],
+        "md5_after": "75abac58747c9a5396192f086766ca65",
+        "sha256_after": "344f681451d9bf6792454cadec422e4007d3c49006a97d64126427a300b5"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "-HGmr3QB4YtWQbLv1inY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T03:16:30.916+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/etc/elasticsearch/config",
+        "uname_after": "ossecm",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T09:43:45.242Z",
+        "size_after": 38,
+        "uid_after": "996",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 36654
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "_HGmr3QB4YtWQbLv1inY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T11:56:50.086+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "c:\\program files (x86)\\ossec-agent\\wodles\\syscollector",
+        "uname_after": "LOCAL Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T18:34:40.080Z",
+        "size_after": 59,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 24387,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "6f733b61300b90fe6331e9a3a2450add34fa9f04",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 88576,
+            "ppid": 15281
+          },
+          "effective_user": {
+            "name": "ec2-user",
+            "id": 99
+          },
+          "user": {
+            "name": "ossecm",
+            "id": 64
+          },
+          "group": {
+            "name": "ossecm",
+            "id": 40
+          }
+        },
+        "md5_after": "b5c31e88506e389eee135fc34c5b04de",
+        "sha256_after": "94d7a59378d16929d785d8e8e91f8f4b82b22b2deb64ac4b0d29c2b1ec74"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "_3Gmr3QB4YtWQbLv1inY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T17:38:18.589+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/var/log/lastlog",
+        "uname_after": "NETWORK Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-21T03:29:28.742Z",
+        "size_after": 61,
+        "uid_after": "0",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 35090,
+        "mtime_before": "2020-09-21T03:28:28.742Z",
+        "inode_before": 66440,
+        "sha1_after": "60eeb039cb21598205ece91198f3c86c839d8332",
+        "changed_attributes": [
+          "tmp"
+        ],
+        "md5_after": "4549a4f282f029b3ebd0a16e970a8901",
+        "sha256_after": "c3906be5250f5884511fdabf7f8025d65a11f86f3dfef580082f2367479c"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "AnGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T22:55:17.113+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/tmp/agent.conf",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T02:31:46.305Z",
+        "size_after": 12,
+        "uid_after": "S-1-5-18",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 84960
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "CHGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T23:16:59.079+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/run/utmp",
+        "uname_after": "LOCAL Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T12:51:41.997Z",
+        "size_after": 32,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 8666,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "000a880b4390d56dd0d3c8e02d45505f5fb6d87d",
+        "audit": {
+          "process": {
+            "name": "/tmp/sample",
+            "id": 5785,
+            "ppid": 92398
+          },
+          "effective_user": {
+            "name": "LOCAL Service",
+            "id": 29
+          },
+          "user": {
+            "name": "LOCAL Service",
+            "id": 8
+          },
+          "group": {
+            "name": "ossec",
+            "id": 49
+          }
+        },
+        "md5_after": "c27c97b2222756bb8d69f180dccb1dcf",
+        "sha256_after": "f12e6a8c4cb122c50b9eab1da7d8502ab4e78406c84327cca4cb0fbcd110"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "DHGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T08:30:36.560+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/ossec/queue/fim/db/fim.db",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T04:14:18.342Z",
+        "size_after": 23,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 18468,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "ebe3eb2ccfb6a8f420b7cdaa6dc8c6718062d724",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 78015,
+            "ppid": 86346
+          },
+          "effective_user": {
+            "name": "ec2-user",
+            "id": 74
+          },
+          "user": {
+            "name": "ossecm",
+            "id": 50
+          },
+          "group": {
+            "name": "root",
+            "id": 77
+          }
+        },
+        "md5_after": "336b29900092a056491ccb39c1b5110d",
+        "sha256_after": "02b8cc9534a34a57485c6ba9160e656ff61ba6e33e30c2f641688f880bf1"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "FXGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T12:07:59.310+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "c:\\program files (x86)\\ossec-agent\\wodles\\syscollector",
+        "uname_after": "ossec",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T01:47:13.994Z",
+        "size_after": 62,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 30253
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "HHGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T10:02:03.444+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/elasticsearch/elasticsearch.yml",
+        "uname_after": "ossec",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T20:50:26.899Z",
+        "size_after": 26,
+        "uid_after": "S-1-5-19",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 98386,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "0f485705c7ff23bc69a44f6079c7042231c1d31c",
+        "audit": {
+          "process": {
+            "name": "/tmp/sample",
+            "id": 59516,
+            "ppid": 69715
+          },
+          "effective_user": {
+            "name": "ossecm",
+            "id": 24
+          },
+          "user": {
+            "name": "LOCAL Service",
+            "id": 67
+          },
+          "group": {
+            "name": "suricata",
+            "id": 57
+          }
+        },
+        "md5_after": "0b7e28ac26608572081d76fd667de9bd",
+        "sha256_after": "974cad34552483a57a02074a2bcbcd9cf540d926c1e135cd31125c455f69"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "HnGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T01:44:19.487+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/etc/filebeat/fields.yml",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T08:48:03.662Z",
+        "size_after": 42,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 97194,
+        "mtime_before": "2020-09-15T08:47:03.662Z",
+        "inode_before": 62223,
+        "sha1_after": "8af6a681fb1a39abbe1036a547f22c0e89b4162d",
+        "changed_attributes": [
+          "mtime"
+        ],
+        "md5_after": "50e18f555c3999fd7b064fa4e5d199df",
+        "sha256_after": "640b055b6fdadfc5cad2d366f9dc786d41da7b77c847e898f5e2736144be"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "H3Gmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T21:23:44.753+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "004",
+        "name": "Ubuntu",
+        "ip": "47.204.15.21"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/run/utmp",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T00:57:21.295Z",
+        "size_after": 47,
+        "uid_after": "S-1-5-19",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 58955,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "f0677d2683639565e951fab67d94e4f0d0fa004e",
+        "audit": {
+          "process": {
+            "name": "/tmp/sample",
+            "id": 85924,
+            "ppid": 75521
+          },
+          "effective_user": {
+            "name": "LOCAL Service",
+            "id": 7
+          },
+          "user": {
+            "name": "Administrators",
+            "id": 30
+          },
+          "group": {
+            "name": "ossecm",
+            "id": 67
+          }
+        },
+        "md5_after": "b919571014f263550158731e67edfcb2",
+        "sha256_after": "37ec23f907bfea6d6b5d8fc1926c5ab049fb899fb53d600200a6d50584e7"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "IXGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T02:16:08.548+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/var/log/lastlog",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T02:48:05.267Z",
+        "size_after": 7,
+        "uid_after": "996",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 58648
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "I3Gmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T18:44:38.908+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/tmp/agent.conf",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T07:12:46.450Z",
+        "size_after": 22,
+        "uid_after": "0",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 44679
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "JnGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T20:29:06.606+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/tmp/wazuh-config",
+        "uname_after": "SYSTEM",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T20:15:20.693Z",
+        "size_after": 42,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 80163,
+        "mtime_before": "2020-09-19T20:14:20.693Z",
+        "inode_before": 23959,
+        "sha1_after": "063e1cec58fb29c8640a0791483548c722a0a125",
+        "changed_attributes": [
+          "tmp"
+        ],
+        "md5_after": "b8280e97a516e243b59b0d4d7588301b",
+        "sha256_after": "724ce6e8cd2a82c6a7a187d853b8e88817c5d2b58f7bf43953c6404c4b3b"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "KHGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T02:30:35.206+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/tmp/agent.conf",
+        "uname_after": "ossecm",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T18:21:36.178Z",
+        "size_after": 19,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 58673
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "KnGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T14:06:23.043+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/tmp/agent.conf",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T04:58:34.162Z",
+        "size_after": 21,
+        "uid_after": "S-1-5-18",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 10375
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "LHGmr3QB4YtWQbLv1irY",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T18:34:21.767+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-856620481-996501011-1859314257-500",
+        "uname_after": "ossec",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T01:02:08.542Z",
+        "size_after": 8,
+        "uid_after": "996",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 86314,
+        "mtime_before": "2020-09-19T01:01:08.542Z",
+        "inode_before": 4659,
+        "sha1_after": "ae5fb7aa6c25cfff9b399c7707d7d2fe098978d2",
+        "changed_attributes": [
+          "sha256"
+        ],
+        "md5_after": "99a0ca138518a1d04b3a4d4c8c84a8c9",
+        "sha256_after": "47bcb0c88366c2eca728bd078925bfa5fce550a461b5fb1dab3cf46b1ce8"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "LnGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T20:37:22.136+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/tmp/wazuh-config",
+        "uname_after": "ossec",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T10:56:50.707Z",
+        "size_after": 45,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 26018
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "MHGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-21T02:57:02.572+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "c:\\program files (x86)\\ossec-agent\\wodles\\syscollector",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-21T08:54:26.479Z",
+        "size_after": 29,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 54405
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "MnGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T19:03:39.898+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/run/utmp",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-20T19:18:15.099Z",
+        "size_after": 37,
+        "uid_after": "0",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 57826
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "NnGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T12:38:54.709+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/osquery/osquery.db/CURRENT",
+        "uname_after": "SYSTEM",
+        "gname_after": "root",
+        "mtime_after": "2020-09-21T00:26:03.913Z",
+        "size_after": 24,
+        "uid_after": "996",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 95700,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "6d1c7257abac19a98070530a5dd02cd2fe4f51ef",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 65067,
+            "ppid": 85908
+          },
+          "effective_user": {
+            "name": "wazuh",
+            "id": 24
+          },
+          "user": {
+            "name": "Administrators",
+            "id": 100
+          },
+          "group": {
+            "name": "ossecm",
+            "id": 4
+          }
+        },
+        "md5_after": "00623c2484a8dbdae9f64d81d9a8de17",
+        "sha256_after": "b8146446c2fbfa6718687f26df1a056e6ab37a92449e7f613c7cd3d94b87"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "OHGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T10:43:38.154+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/osquery/osquery.db/CURRENT",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T10:03:42.925Z",
+        "size_after": 4,
+        "uid_after": "S-1-5-18",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 93162,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "79a8fadd74e3ac899fc162ee950fd9bd474e5801",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 41891,
+            "ppid": 42395
+          },
+          "effective_user": {
+            "name": "wazuh",
+            "id": 46
+          },
+          "user": {
+            "name": "wazuh",
+            "id": 14
+          },
+          "group": {
+            "name": "ossecm",
+            "id": 92
+          }
+        },
+        "md5_after": "82eb88423f899fc68b580da6da139194",
+        "sha256_after": "346884ab271d0d82896964a150d910c11bdae3e8c54b5a235c4d6f67e78c"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "O3Gmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T10:39:46.132+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/resolv.conf",
+        "uname_after": "wazuh",
+        "gname_after": "root",
+        "mtime_after": "2020-09-20T08:48:11.608Z",
+        "size_after": 3,
+        "uid_after": "996",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 82335,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "3333a887dbc5e2970e4e04aace14c7598cd61c4c",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 75079,
+            "ppid": 38116
+          },
+          "effective_user": {
+            "name": "SYSTEM",
+            "id": 74
+          },
+          "user": {
+            "name": "suricata",
+            "id": 97
+          },
+          "group": {
+            "name": "root",
+            "id": 91
+          }
+        },
+        "md5_after": "2b3e2cccbdd6c35adba821483dcd4fbe",
+        "sha256_after": "a8543620b9cf56214e59983d8a21045fcb91f0595574d313bff3709225ab"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "QnGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T17:41:35.007+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\SharedAccess\\Epoch",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T13:39:49.108Z",
+        "size_after": 1,
+        "uid_after": "S-1-5-19",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 11733,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "213c8f27b1e4e882a0bb80799a76a66c290838d3",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 78157,
+            "ppid": 16905
+          },
+          "effective_user": {
+            "name": "root",
+            "id": 52
+          },
+          "user": {
+            "name": "LOCAL Service",
+            "id": 14
+          },
+          "group": {
+            "name": "ossec",
+            "id": 35
+          }
+        },
+        "md5_after": "ab77db9fb61ba74c8c948c546e3250cf",
+        "sha256_after": "2bf0b6f650c46b7508353e6a5b4f425bea8374db3c72e3cfdc0155e57a16"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "Q3Gmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-21T00:15:00.439+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "c:\\programdata\\microsoft\\windows defender\\scans\\mpenginedb.db-wal",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T23:18:20.120Z",
+        "size_after": 1,
+        "uid_after": "996",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 17853,
+        "mtime_before": "2020-09-19T23:17:20.120Z",
+        "inode_before": 61435,
+        "sha1_after": "c3aac648eaf8541ca49d7b14e7e51603b297fbcb",
+        "changed_attributes": [
+          "mtime"
+        ],
+        "md5_after": "8ea17ff380be7255e8f0fc92cbb92eb6",
+        "sha256_after": "5f6ff4e9f70b6854ee6a6d46e4be4a37db482aaf191b44cc46a74764f654"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "RHGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T18:46:29.062+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/tmp/agent.conf",
+        "uname_after": "ossecm",
+        "gname_after": "root",
+        "mtime_after": "2020-09-21T03:20:12.213Z",
+        "size_after": 59,
+        "uid_after": "S-1-5-19",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 48912
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "RXGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T00:23:34.219+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{54b31d7e-36bf-4bbe-9ab2-106a939cd78c}",
+        "uname_after": "ossec",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T07:03:08.299Z",
+        "size_after": 9,
+        "uid_after": "S-1-5-18",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 68530,
+        "mtime_before": "2020-09-17T07:02:08.299Z",
+        "inode_before": 12238,
+        "sha1_after": "041c66656b964803cc6f78fac6fcbdcd175258d0",
+        "changed_attributes": [
+          "sha256"
+        ],
+        "md5_after": "39c196064d6acb8fe300e5d0d652cfac",
+        "sha256_after": "49b159af45a27196b92760817f77870f7de0c3b0e57e6e0dcdbac5ba98fc"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "SHGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T17:11:27.519+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/elasticsearch/elasticsearch.yml",
+        "uname_after": "ossec",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T04:45:56.007Z",
+        "size_after": 9,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 27851,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "bb7ac7ffc2b79e7ab5fb3c8886f00942b5e824d8",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 57817,
+            "ppid": 44096
+          },
+          "effective_user": {
+            "name": "SYSTEM",
+            "id": 100
+          },
+          "user": {
+            "name": "wazuh",
+            "id": 63
+          },
+          "group": {
+            "name": "SYSTEM",
+            "id": 88
+          }
+        },
+        "md5_after": "fcc69c217372a5b2f4e94908530df480",
+        "sha256_after": "6f55c06ad01b8c1e02855f0935586957c206a2be16816668f47cc30428a4"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "SnGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T09:45:18.179+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/etc/elasticsearch/elasticsearch.yml",
+        "uname_after": "ossec",
+        "gname_after": "root",
+        "mtime_after": "2020-09-21T06:00:36.036Z",
+        "size_after": 35,
+        "uid_after": "996",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 19396
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "TnGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T10:33:57.258+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/var/ossec/queue/fim/db/fim.db",
+        "uname_after": "SYSTEM",
+        "gname_after": "root",
+        "mtime_after": "2020-09-20T02:28:05.934Z",
+        "size_after": 3,
+        "uid_after": "S-1-5-19",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 12643
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "XXGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T13:02:21.546+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "004",
+        "name": "Ubuntu",
+        "ip": "47.204.15.21"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/run/utmp",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T21:51:18.992Z",
+        "size_after": 33,
+        "uid_after": "S-1-5-18",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 19746,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "c1fedca367d0c6b2a077d4fbd1edb1eea8ed98ff",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 15392,
+            "ppid": 73356
+          },
+          "effective_user": {
+            "name": "NETWORK Service",
+            "id": 88
+          },
+          "user": {
+            "name": "ossec",
+            "id": 52
+          },
+          "group": {
+            "name": "suricata",
+            "id": 22
+          }
+        },
+        "md5_after": "485cf865b6a836f27aec47102fb6baf6",
+        "sha256_after": "d1043ba5f9137f7edca2603e9d4fd6d43d41a883ff6642c888477c28a655"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "XnGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T18:36:51.078+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/run/utmp",
+        "uname_after": "ec2-user",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T17:12:21.154Z",
+        "size_after": 58,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 51838
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "ZXGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T17:14:17.368+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "004",
+        "name": "Ubuntu",
+        "ip": "47.204.15.21"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/osquery/osquery.db/CURRENT",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T06:28:15.914Z",
+        "size_after": 5,
+        "uid_after": "S-1-5-18",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 7348,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "8eae0b44d1b8798bd4a7bee436499c7791d8843e",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 65508,
+            "ppid": 27387
+          },
+          "effective_user": {
+            "name": "wazuh",
+            "id": 54
+          },
+          "user": {
+            "name": "root",
+            "id": 94
+          },
+          "group": {
+            "name": "wazuh",
+            "id": 91
+          }
+        },
+        "md5_after": "ff977456a07c687d35c84a415d79fd06",
+        "sha256_after": "5d925df2eab3830a554782d69c0e6fc2d74c81e7f29826999dea252ca33a"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "anGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T11:35:35.116+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "004",
+        "name": "Ubuntu",
+        "ip": "47.204.15.21"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/resolv.conf",
+        "uname_after": "SYSTEM",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T13:19:21.902Z",
+        "size_after": 21,
+        "uid_after": "S-1-5-18",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 30994,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "a808504c44a377d9daf3469af2b7928f1ca1fe7a",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 77595,
+            "ppid": 46640
+          },
+          "effective_user": {
+            "name": "LOCAL Service",
+            "id": 83
+          },
+          "user": {
+            "name": "root",
+            "id": 99
+          },
+          "group": {
+            "name": "ec2-user",
+            "id": 8
+          }
+        },
+        "md5_after": "b0a801def7a4c2eb729665f2863824c2",
+        "sha256_after": "f077022de80e066b8f883258872b97a17848f1932fc61ce8b571528e9492"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "a3Gmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T16:37:15.121+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/elasticsearch/users",
+        "uname_after": "LOCAL Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T01:51:47.119Z",
+        "size_after": 57,
+        "uid_after": "S-1-5-19",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 35538,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "c685c6d73088c01b5e311637b8a28cd56b338ce5",
+        "audit": {
+          "process": {
+            "name": "/tmp/sample",
+            "id": 90498,
+            "ppid": 23570
+          },
+          "effective_user": {
+            "name": "SYSTEM",
+            "id": 18
+          },
+          "user": {
+            "name": "LOCAL Service",
+            "id": 100
+          },
+          "group": {
+            "name": "ec2-user",
+            "id": 28
+          }
+        },
+        "md5_after": "10a88ab42363b2d31607488c5d4fd4c4",
+        "sha256_after": "c3abe935ed738712b368b8753427ebbed5a99a79085762a0158e04e4ab52"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "bXGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T15:56:18.984+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/var/ossec/queue/fim/db/fim.db",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-20T15:00:45.516Z",
+        "size_after": 38,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 55324,
+        "mtime_before": "2020-09-20T14:59:45.516Z",
+        "inode_before": 91367,
+        "sha1_after": "94077c4096a5a04733093a0fbfa6bb1d1b40c9fc",
+        "changed_attributes": [
+          "md5"
+        ],
+        "md5_after": "379d0d07d917a9d26c3799a4dbe258ec",
+        "sha256_after": "a30778fda45930fe97c74a05a84348c267ad1b2027efe5055f82fd14f138"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "bnGmr3QB4YtWQbLv1irZ",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T08:40:43.666+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "004",
+        "name": "Ubuntu",
+        "ip": "47.204.15.21"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/var/log/lastlog",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T05:37:42.512Z",
+        "size_after": 65,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 96606
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "c3Gmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T09:10:55.646+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/run/utmp",
+        "uname_after": "ossecm",
+        "gname_after": "root",
+        "mtime_after": "2020-09-20T10:38:51.510Z",
+        "size_after": 2,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 91220,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "e2bbe5f78247096c2de454f4a4c30b3c06f0ba30",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 83298,
+            "ppid": 62104
+          },
+          "effective_user": {
+            "name": "ossecm",
+            "id": 52
+          },
+          "user": {
+            "name": "Administrators",
+            "id": 99
+          },
+          "group": {
+            "name": "wazuh",
+            "id": 57
+          }
+        },
+        "md5_after": "5840f7792d9cb95b025d391bb6d89cc1",
+        "sha256_after": "2a6ff52e1c89f36f6f47a9487ec3bce8925f59fb69a2e8a8df305c674b70"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "dXGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T06:14:16.893+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\WinDefend",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T12:18:59.243Z",
+        "size_after": 6,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 59043,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "2db684e7048204e8d86a6e73f2c9393ce5938695",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 16530,
+            "ppid": 20057
+          },
+          "effective_user": {
+            "name": "ossecm",
+            "id": 43
+          },
+          "user": {
+            "name": "LOCAL Service",
+            "id": 47
+          },
+          "group": {
+            "name": "wazuh",
+            "id": 81
+          }
+        },
+        "md5_after": "467890ff9707371c8084c8a5c3158e71",
+        "sha256_after": "9f35ff8179650b225da0274eacae431c0d89db9b25812b4e09555f8d3c3f"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "e3Gmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T08:27:42.425+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\Security\\SAM\\Domains\\Account\\Users\\000001F5",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T01:29:43.968Z",
+        "size_after": 40,
+        "uid_after": "996",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 75744,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "0154c853f3487580a917cca4c52bf6fb813e5bf8",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 81823,
+            "ppid": 94274
+          },
+          "effective_user": {
+            "name": "Administrators",
+            "id": 62
+          },
+          "user": {
+            "name": "wazuh",
+            "id": 27
+          },
+          "group": {
+            "name": "NETWORK Service",
+            "id": 30
+          }
+        },
+        "md5_after": "53e842dde2e56cb0e2742ccd14f27df6",
+        "sha256_after": "963414c97793714531598e062f979d6c629d4640ddb0d41bc362a5a03451"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "fnGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T02:51:39.559+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/etc/sysconfig/network-scripts/ifcfg-eth1",
+        "uname_after": "ec2-user",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T13:11:54.424Z",
+        "size_after": 17,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 72993
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "f3Gmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T15:59:50.887+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/elasticsearch/users",
+        "uname_after": "LOCAL Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-20T03:40:02.870Z",
+        "size_after": 55,
+        "uid_after": "0",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 6182,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "446a722405daf4cfbe7e67c86c5cc8ef182f6692",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 95800,
+            "ppid": 91229
+          },
+          "effective_user": {
+            "name": "root",
+            "id": 17
+          },
+          "user": {
+            "name": "suricata",
+            "id": 19
+          },
+          "group": {
+            "name": "ossecm",
+            "id": 17
+          }
+        },
+        "md5_after": "699efff922c40443aca5c7d8cb1e5bc3",
+        "sha256_after": "814d523a687f670489516f6be47cd78d3c70ad8f05040d5173b74c230aef"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "hHGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T05:22:48.103+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/var/osquery/osquery.db/CURRENT",
+        "uname_after": "ossecm",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T05:34:34.351Z",
+        "size_after": 6,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 69326
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "hXGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T16:18:33.189+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/resolv.conf",
+        "uname_after": "ossecm",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T16:23:42.029Z",
+        "size_after": 55,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 55950,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "b71f132bc3aae0854aad31176b2e54a359dc6a83",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 77595,
+            "ppid": 69872
+          },
+          "effective_user": {
+            "name": "SYSTEM",
+            "id": 61
+          },
+          "user": {
+            "name": "ossecm",
+            "id": 49
+          },
+          "group": {
+            "name": "ec2-user",
+            "id": 78
+          }
+        },
+        "md5_after": "31f6a0a92bd3e4444a9c9910714d601a",
+        "sha256_after": "d3074e98778663faeaa7087821676ca41198494169718b27d13cce5b6ccf"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "iXGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T02:28:37.303+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/log/lastlog",
+        "uname_after": "ossecm",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T00:47:00.704Z",
+        "size_after": 62,
+        "uid_after": "0",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 90468,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "95d066f02fc59e95ca655f9e0e50560de054f41e",
+        "audit": {
+          "process": {
+            "name": "/tmp/sample",
+            "id": 35907,
+            "ppid": 39622
+          },
+          "effective_user": {
+            "name": "SYSTEM",
+            "id": 54
+          },
+          "user": {
+            "name": "Administrators",
+            "id": 49
+          },
+          "group": {
+            "name": "root",
+            "id": 0
+          }
+        },
+        "md5_after": "2eb0af8cdba6065227d716d58c5f01cb",
+        "sha256_after": "bab4667d70d0b1b6ab851837406c36a486c8cba4f32377689b895c514813"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "inGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T18:26:28.206+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/var/osquery/osquery.db/CURRENT",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T09:42:27.301Z",
+        "size_after": 14,
+        "uid_after": "0",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 45924
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "jXGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T23:01:50.262+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/ossec/queue/fim/db/fim.db-journal",
+        "uname_after": "SYSTEM",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T17:19:49.110Z",
+        "size_after": 47,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 10757,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "f985f4bf6cc1eb6009ba5833184fb06f31ddab48",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 36867,
+            "ppid": 19478
+          },
+          "effective_user": {
+            "name": "suricata",
+            "id": 93
+          },
+          "user": {
+            "name": "NETWORK Service",
+            "id": 56
+          },
+          "group": {
+            "name": "ossecm",
+            "id": 98
+          }
+        },
+        "md5_after": "b7bcb187f1656cb793fc0353309b4b4d",
+        "sha256_after": "5f49f036e2ad0f225bc5e9ef6db254b6e9d1a24d02a2775e1adda15f800a"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "l3Gmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T15:09:11.724+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "c:\\program files (x86)\\ossec-agent\\ossec-agent.state",
+        "uname_after": "NETWORK Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T21:55:06.424Z",
+        "size_after": 45,
+        "uid_after": "S-1-5-18",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 58575
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "mnGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T09:31:26.172+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "004",
+        "name": "Ubuntu",
+        "ip": "47.204.15.21"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/run/utmp",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T23:27:11.817Z",
+        "size_after": 58,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 94372,
+        "mtime_before": "2020-09-14T23:26:11.817Z",
+        "inode_before": 54564,
+        "sha1_after": "b00651e0adfc617327bc935b62d34217b24a59ad",
+        "changed_attributes": [
+          "sha256"
+        ],
+        "md5_after": "9c7ec7602bdc09f8daa0d940222b7cc0",
+        "sha256_after": "4bd2246e75b9fd1f8075d281c70571544bea963fbbc770326b4f42679766"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "o3Gmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T03:18:19.234+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/etc/sysconfig/network-scripts/ifcfg-eth1",
+        "uname_after": "NETWORK Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T05:32:33.039Z",
+        "size_after": 21,
+        "uid_after": "0",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 42919,
+        "mtime_before": "2020-09-18T05:31:33.039Z",
+        "inode_before": 39164,
+        "sha1_after": "1e8479b0c09cf761340112c3344fb6f7d78fd32b",
+        "changed_attributes": [
+          "inode"
+        ],
+        "md5_after": "b603a66b36c994c242f6959fe569d2d6",
+        "sha256_after": "24b61611d96b66303e2b2defe0cfc6f4a0487a0e5c6a9958f888782f33db"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "sHGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T14:28:28.250+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/etc/sysconfig/network-scripts/ifcfg-eth1",
+        "uname_after": "LOCAL Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-20T16:21:06.917Z",
+        "size_after": 2,
+        "uid_after": "S-1-5-19",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 89762,
+        "mtime_before": "2020-09-20T16:20:06.917Z",
+        "inode_before": 1012,
+        "sha1_after": "91441a7d0fd6278b0056d0346c1fc40b17945643",
+        "changed_attributes": [
+          "sha1"
+        ],
+        "md5_after": "aa043ea102269415b2ce4bf6dcc58c70",
+        "sha256_after": "79092c7926fe3e8e51f2bde72cdda2ef86fc2c35effb463c901bcebd3e70"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "sXGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T14:34:09.352+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/tmp/agent.conf",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T18:17:53.061Z",
+        "size_after": 24,
+        "uid_after": "S-1-5-18",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 22191
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "snGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T10:25:28.519+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/etc/elasticsearch/elasticsearch.yml",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T18:57:59.323Z",
+        "size_after": 41,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 56926
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "tXGmr3QB4YtWQbLv1ira",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T02:12:33.467+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-856620481-996501011-1859314257-500",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T07:02:23.078Z",
+        "size_after": 10,
+        "uid_after": "996",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 51750,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "32f231dbc794dfb9f7b3973ace4fb1b03393a60c",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 85202,
+            "ppid": 42789
+          },
+          "effective_user": {
+            "name": "wazuh",
+            "id": 16
+          },
+          "user": {
+            "name": "root",
+            "id": 61
+          },
+          "group": {
+            "name": "root",
+            "id": 73
+          }
+        },
+        "md5_after": "4162acdd087f84d5f692496631dd0fc5",
+        "sha256_after": "2f0380c2c74cddf0991132c4995c6bf0aa0ea835201f8b88057a54bd0bb9"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "t3Gmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T02:12:12.624+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/osquery/osquery.db/CURRENT",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T11:14:33.122Z",
+        "size_after": 27,
+        "uid_after": "S-1-5-19",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 4453,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "c40d82234190f29cbc349c2ac6c4fa832e14db77",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 81534,
+            "ppid": 43341
+          },
+          "effective_user": {
+            "name": "suricata",
+            "id": 62
+          },
+          "user": {
+            "name": "LOCAL Service",
+            "id": 4
+          },
+          "group": {
+            "name": "wazuh",
+            "id": 41
+          }
+        },
+        "md5_after": "3ed8d449af682c65f77a9f70bb4c5edd",
+        "sha256_after": "57890cbcf59f6b79d8971253d2a507458063676e7d87fdf17dbdc9147f89"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "vHGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T23:15:10.755+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/osquery/osquery.db/CURRENT",
+        "uname_after": "LOCAL Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T02:17:58.075Z",
+        "size_after": 53,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 46921,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "24d0d52fbde488ea2f9880145461ce057417ef03",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 71353,
+            "ppid": 58119
+          },
+          "effective_user": {
+            "name": "Administrators",
+            "id": 82
+          },
+          "user": {
+            "name": "SYSTEM",
+            "id": 24
+          },
+          "group": {
+            "name": "LOCAL Service",
+            "id": 39
+          }
+        },
+        "md5_after": "6bfffc5a45fc65066ed78c0937e4a1fb",
+        "sha256_after": "dd5762f1ca59201534d595dca2e958c13e6ead754862a63f995ba61659c2"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "vXGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T03:10:56.389+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/etc/resolv.conf",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T16:00:40.081Z",
+        "size_after": 57,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 50046
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "vnGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T00:48:00.726+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "004",
+        "name": "Ubuntu",
+        "ip": "47.204.15.21"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/tmp/agent.conf",
+        "uname_after": "NETWORK Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T19:44:41.725Z",
+        "size_after": 5,
+        "uid_after": "996",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 91430,
+        "mtime_before": "2020-09-15T19:43:41.725Z",
+        "inode_before": 28812,
+        "sha1_after": "3c541c925247f32144b1c34aaeea97b03ed32e2f",
+        "changed_attributes": [
+          "size"
+        ],
+        "md5_after": "3ae8eae2c209fa7a55eda042548615fb",
+        "sha256_after": "4aa1ff4218cb059d0d80a8eb13081a8fdd3fc2a8ecd1f20bda1b443788f8"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "wXGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T17:54:36.558+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/var/osquery/osquery.db/CURRENT",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T06:17:22.584Z",
+        "size_after": 19,
+        "uid_after": "0",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 71230,
+        "mtime_before": "2020-09-19T06:16:22.584Z",
+        "inode_before": 32366,
+        "sha1_after": "e41d577be74ca97cfb09576920cd1eb9a954579b",
+        "changed_attributes": [
+          "md5"
+        ],
+        "md5_after": "56a0c4e50e82cbac19aea42ca89e72a8",
+        "sha256_after": "09528183ac1ccd3748179e9571ccb734de08594bd6edf39219fdeef91758"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "x3Gmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T20:09:54.613+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/etc/elasticsearch/config",
+        "uname_after": "ossecm",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T06:23:56.599Z",
+        "size_after": 60,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 99972,
+        "mtime_before": "2020-09-15T06:22:56.599Z",
+        "inode_before": 47541,
+        "sha1_after": "cd4213248050af9a619d5a4d3bb39abe1a2956b0",
+        "changed_attributes": [
+          "sha256"
+        ],
+        "md5_after": "cb1c152fc4b462ec3f1b41b472482a2c",
+        "sha256_after": "c594dfc83468321ff87a19ac7b17a0a6a3fb144310fdff5909d16d35d153"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "ynGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T09:56:59.134+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/var/osquery/osquery.db/CURRENT",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T11:34:17.262Z",
+        "size_after": 1,
+        "uid_after": "S-1-5-18",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 71990
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "zHGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T10:18:10.347+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/var/ossec/queue/fim/db/fim.db",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T02:02:28.436Z",
+        "size_after": 22,
+        "uid_after": "S-1-5-19",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 6251,
+        "mtime_before": "2020-09-19T02:01:28.436Z",
+        "inode_before": 67556,
+        "sha1_after": "718bbbd00575770398fe98d1cfa7d43b7be0a542",
+        "changed_attributes": [
+          "sha256"
+        ],
+        "md5_after": "e709e74b43af93290a6bcc7ed891852d",
+        "sha256_after": "57eeb8079cbbc23eb51ddc53e9a4686666fcf8e61c2951d4589195804b55"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "znGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T16:43:19.425+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/etc/elasticsearch/config",
+        "uname_after": "wazuh",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T01:46:01.253Z",
+        "size_after": 46,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 6018,
+        "mtime_before": "2020-09-17T01:45:01.253Z",
+        "inode_before": 48477,
+        "sha1_after": "e1e734958bdb3e83f35f8bbe8b2854533499f4fa",
+        "changed_attributes": [
+          "md5"
+        ],
+        "md5_after": "20b0494f9f73071f9da0f82201508d95",
+        "sha256_after": "a0c36058896e18ea1c58306b38ac6d4da28bbc7b1a6c864ee861156f68a5"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "z3Gmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T04:01:05.670+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\Security\\SAM\\Domains\\Account\\Users\\000001F4",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T22:24:02.319Z",
+        "size_after": 2,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 98433,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "d511efa28263044c592a3a579b51a89a21b30a39",
+        "audit": {
+          "process": {
+            "name": "/tmp/sample",
+            "id": 22861,
+            "ppid": 82373
+          },
+          "effective_user": {
+            "name": "ossec",
+            "id": 86
+          },
+          "user": {
+            "name": "SYSTEM",
+            "id": 15
+          },
+          "group": {
+            "name": "ec2-user",
+            "id": 87
+          }
+        },
+        "md5_after": "3b607cc752c1da6e8d5a04dc309367fc",
+        "sha256_after": "aab7f601c5d3cd58ce98d633312f74957afbc25aa9c95873e7f59ae013a7"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "0HGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T01:51:55.988+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/ossec/queue/fim/db/fim.db",
+        "uname_after": "NETWORK Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T13:53:22.574Z",
+        "size_after": 37,
+        "uid_after": "996",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 50639,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "004ed49a92c1d1dfed0c5224e9e63c1c76d904bd",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 11340,
+            "ppid": 33968
+          },
+          "effective_user": {
+            "name": "ossec",
+            "id": 79
+          },
+          "user": {
+            "name": "SYSTEM",
+            "id": 71
+          },
+          "group": {
+            "name": "NETWORK Service",
+            "id": 55
+          }
+        },
+        "md5_after": "b322da3de6c78cbd028e848e4cfe6780",
+        "sha256_after": "f623abd841fa4044636adcc3cf33beecef53bbe9a2b0f8424bdf64532fb9"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "0XGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-21T05:21:15.537+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "c:\\program files (x86)\\ossec-agent\\ossec-agent.state",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T00:33:05.044Z",
+        "size_after": 55,
+        "uid_after": "996",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 88807,
+        "mtime_before": "2020-09-15T00:32:05.044Z",
+        "inode_before": 56802,
+        "sha1_after": "6a55eb814ba19253277cc37dc59b8c0f16c1b00d",
+        "changed_attributes": [
+          "tmp"
+        ],
+        "md5_after": "f7544b5cca693a9ced1729b58fffb30b",
+        "sha256_after": "0ebd26fd5716bab0f61c1f93ad115558740b2019818c6fca4de345337e33"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "1HGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T06:49:00.007+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/elasticsearch/config",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T18:49:32.211Z",
+        "size_after": 1,
+        "uid_after": "996",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 65497,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "29bedc44757b385a562d64dafd4e2a5cb24dbf25",
+        "audit": {
+          "process": {
+            "name": "/tmp/sample",
+            "id": 33909,
+            "ppid": 65762
+          },
+          "effective_user": {
+            "name": "Administrators",
+            "id": 98
+          },
+          "user": {
+            "name": "wazuh",
+            "id": 47
+          },
+          "group": {
+            "name": "LOCAL Service",
+            "id": 80
+          }
+        },
+        "md5_after": "f741d96d31744cfcb55b4ff2f8caba36",
+        "sha256_after": "2be4d145a84268fa978b45880d2c878b9f171f1a933811d3a769872d0147"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "1nGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T01:17:59.635+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/etc/elasticsearch/users",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T22:03:33.405Z",
+        "size_after": 16,
+        "uid_after": "S-1-5-18",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 80720
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "2XGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T10:00:08.663+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/filebeat/fields.yml",
+        "uname_after": "LOCAL Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T07:38:38.653Z",
+        "size_after": 36,
+        "uid_after": "S-1-5-19",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 16546,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "ef8e8bfac6f5f1e6e5603ca0b7590042eb34f069",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 24524,
+            "ppid": 746
+          },
+          "effective_user": {
+            "name": "LOCAL Service",
+            "id": 81
+          },
+          "user": {
+            "name": "NETWORK Service",
+            "id": 90
+          },
+          "group": {
+            "name": "LOCAL Service",
+            "id": 28
+          }
+        },
+        "md5_after": "ad5542933470e66ac13ac81fe1e1eb45",
+        "sha256_after": "bf5b94c478374d9a84d5b273dbb94aed598212fe14f2c36bdabf7fc58f47"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "3nGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T05:29:43.513+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/etc/resolv.conf",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T06:52:48.527Z",
+        "size_after": 57,
+        "uid_after": "996",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 8545,
+        "mtime_before": "2020-09-16T06:51:48.527Z",
+        "inode_before": 37502,
+        "sha1_after": "ba2ed69f03f486ffc79af9118104229b7d49ad57",
+        "changed_attributes": [
+          "tmp"
+        ],
+        "md5_after": "a5f8bf44354295198966223687ac7691",
+        "sha256_after": "73274c271828a64a56d1b56205590696c73aaa58304b131f4f537fdadaab"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "4XGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T02:39:33.442+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/filebeat/fields.yml",
+        "uname_after": "LOCAL Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-20T14:30:11.594Z",
+        "size_after": 10,
+        "uid_after": "S-1-5-18",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 90459,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "a70b8c5a6520bff7b4a76531e15ff2e7227b6f93",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 40046,
+            "ppid": 45259
+          },
+          "effective_user": {
+            "name": "Administrators",
+            "id": 41
+          },
+          "user": {
+            "name": "wazuh",
+            "id": 7
+          },
+          "group": {
+            "name": "ossec",
+            "id": 54
+          }
+        },
+        "md5_after": "53702957a5c2bf4859e995618c34d2a4",
+        "sha256_after": "241f62c69cb2a723ba2165df12813968124fc7f75b17a0d5403a4b1029b6"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "4nGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T21:47:25.116+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "004",
+        "name": "Ubuntu",
+        "ip": "47.204.15.21"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/var/log/lastlog",
+        "uname_after": "ec2-user",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T04:58:36.031Z",
+        "size_after": 40,
+        "uid_after": "0",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 66482,
+        "mtime_before": "2020-09-15T04:57:36.031Z",
+        "inode_before": 95381,
+        "sha1_after": "3159bf7a0fa2c97a7ee8db7c3cf7a314ea7263e8",
+        "changed_attributes": [
+          "inode"
+        ],
+        "md5_after": "ad3ad77bfd431489e968c7e7d99ceb12",
+        "sha256_after": "87e4aadcc5b151e5652d1ff053f9548fd9a3401961ada0f763ed678c010b"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "43Gmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T04:37:33.104+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\WinDefend",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T07:46:58.080Z",
+        "size_after": 62,
+        "uid_after": "S-1-5-18",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 15137,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "099e335f2b7a292d1601cba45f7cbb38398192a1",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 99985,
+            "ppid": 717
+          },
+          "effective_user": {
+            "name": "ossecm",
+            "id": 31
+          },
+          "user": {
+            "name": "suricata",
+            "id": 87
+          },
+          "group": {
+            "name": "ossec",
+            "id": 16
+          }
+        },
+        "md5_after": "26d3abac7db1591ea75d3011e02539a4",
+        "sha256_after": "15276f396d0df2b1248b4bdd3e39b6a609a9cd22f065c67b38e7041bccfe"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "5HGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T19:01:58.284+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\RunTime",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-20T16:32:57.860Z",
+        "size_after": 48,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 18449
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "7HGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T07:58:35.756+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/run/utmp",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-15T12:14:44.489Z",
+        "size_after": 19,
+        "uid_after": "S-1-5-18",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 87088,
+        "mtime_before": "2020-09-15T12:13:44.489Z",
+        "inode_before": 43545,
+        "sha1_after": "23df1b42a9cb5b74b5be41ae65bf82baba36ff05",
+        "changed_attributes": [
+          "sha256"
+        ],
+        "md5_after": "5cc44184244f7a2d68ea1291b04834ed",
+        "sha256_after": "c5b4bd9f5c161f6019e80ae793207cc7b887cd6032eb1e2406aa1b1f2b2e"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "73Gmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-15T02:55:33.513+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/etc/resolv.conf",
+        "uname_after": "ossec",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T11:42:57.384Z",
+        "size_after": 62,
+        "uid_after": "0",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 89828
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "8nGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T09:08:15.341+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/var/log/lastlog",
+        "uname_after": "NETWORK Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T15:26:35.210Z",
+        "size_after": 5,
+        "uid_after": "996",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 17913,
+        "mtime_before": "2020-09-14T15:25:35.210Z",
+        "inode_before": 62934,
+        "sha1_after": "3e53d822c1f91aabc29c73c7eae8af935f949c29",
+        "changed_attributes": [
+          "inode"
+        ],
+        "md5_after": "f1cb160ce634c7e427d05fa616afd5ec",
+        "sha256_after": "6e20897984926a1f1fcb07ecdc3cf93193281ddade21dc2e1816149d555e"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "9XGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T15:19:34.028+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "002",
+        "name": "Amazon",
+        "ip": "145.80.240.15"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/var/ossec/queue/fim/db/fim.db",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T11:16:46.271Z",
+        "size_after": 42,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 50919
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "9nGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T16:49:00.125+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-856620481-996501011-1859314257-500",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T23:29:21.044Z",
+        "size_after": 6,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 29348
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "_nGmr3QB4YtWQbLv1irb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T22:15:57.390+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/etc/resolv.conf",
+        "uname_after": "wazuh",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T14:06:36.284Z",
+        "size_after": 3,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 23456
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "AXGmr3QB4YtWQbLv1ivb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T00:22:17.223+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/etc/sysconfig/network-scripts/ifcfg-eth1",
+        "uname_after": "LOCAL Service",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T22:37:32.430Z",
+        "size_after": 26,
+        "uid_after": "0",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 84885,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "50e302be8e37b7394f7a46a3049bf3c7c3cff370",
+        "audit": {
+          "process": {
+            "name": "/home/user/sample",
+            "id": 65833,
+            "ppid": 32525
+          },
+          "effective_user": {
+            "name": "LOCAL Service",
+            "id": 84
+          },
+          "user": {
+            "name": "LOCAL Service",
+            "id": 85
+          },
+          "group": {
+            "name": "Administrators",
+            "id": 44
+          }
+        },
+        "md5_after": "f11faabf8332b4ae615dd051839d179f",
+        "sha256_after": "2f122b56fc3ba0522831731dd3f32c1cd216407e0c1d19eba555c6181902"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "AnGmr3QB4YtWQbLv1ivb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-20T14:46:04.928+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/run/utmp",
+        "uname_after": "wazuh",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T13:46:52.856Z",
+        "size_after": 61,
+        "uid_after": "S-1-5-18",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 61025
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "A3Gmr3QB4YtWQbLv1ivb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-16T13:19:18.385+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "001",
+        "name": "RHEL7",
+        "ip": "187.54.247.68"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/tmp/agent.conf",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T09:53:04.093Z",
+        "size_after": 24,
+        "uid_after": "S-1-5-19",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 42778,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "99d5d3096a3205813ac17a9b10190456163c0459",
+        "audit": {
+          "process": {
+            "name": "/tmp/sample",
+            "id": 39707,
+            "ppid": 42905
+          },
+          "effective_user": {
+            "name": "ec2-user",
+            "id": 96
+          },
+          "user": {
+            "name": "SYSTEM",
+            "id": 41
+          },
+          "group": {
+            "name": "ossecm",
+            "id": 44
+          }
+        },
+        "md5_after": "159f868d0fcfa093f79e17ca6ee127a8",
+        "sha256_after": "ac5d5692b3c4aa18fe00e89fcc8de574689c522efdbd21664d98ccc973f6"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "BXGmr3QB4YtWQbLv1ivb",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T19:21:27.809+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\Security\\SAM\\Domains\\Account\\Users\\000001F7",
+        "uname_after": "wazuh",
+        "gname_after": "root",
+        "mtime_after": "2020-09-14T20:02:36.604Z",
+        "size_after": 62,
+        "uid_after": "996",
+        "gid_after": "0",
+        "perm_after": "rw-r--r--",
+        "inode_after": 25317
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "B3Gmr3QB4YtWQbLv1ivc",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T21:27:02.114+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "003",
+        "name": "ip-10-0-0-180.us-west-1.compute.internal",
+        "ip": "10.0.0.180"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "/tmp/agent.conf",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-20T14:08:37.499Z",
+        "size_after": 19,
+        "uid_after": "996",
+        "gid_after": "22",
+        "perm_after": "rw-r--r--",
+        "inode_after": 53032
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "CXGmr3QB4YtWQbLv1ivc",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-17T12:03:13.849+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\WinDefend",
+        "uname_after": "SYSTEM",
+        "gname_after": "root",
+        "mtime_after": "2020-09-18T14:27:09.835Z",
+        "size_after": 34,
+        "uid_after": "S-1-5-32-544",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 55852
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "DnGmr3QB4YtWQbLv1ivc",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T17:56:52.753+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "005",
+        "name": "Centos",
+        "ip": "197.17.1.4"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/run/utmp",
+        "uname_after": "ossecm",
+        "gname_after": "root",
+        "mtime_after": "2020-09-17T04:02:38.687Z",
+        "size_after": 19,
+        "uid_after": "S-1-5-19",
+        "gid_after": "993",
+        "perm_after": "rw-r--r--",
+        "inode_after": 68644,
+        "mtime_before": "2020-09-17T04:01:38.687Z",
+        "inode_before": 22287,
+        "sha1_after": "4a2c67fe23a29d5df9e3eae2a9fa5d6460c4e357",
+        "changed_attributes": [
+          "tmp"
+        ],
+        "md5_after": "674e33cd2576666611d6d45cdcee3626",
+        "sha256_after": "497e72631c8dc6e2a499a7f13f2dc52ee852d2c0c4f8cfdfea02f6bc602d"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "EHGmr3QB4YtWQbLv1ivc",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-18T02:44:02.119+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File deleted.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "553",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "deleted",
+        "path": "/var/ossec/queue/fim/db/fim.db-journal",
+        "uname_after": "Administrators",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T03:58:21.240Z",
+        "size_after": 60,
+        "uid_after": "996",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 91893,
+        "tags": [
+          "tmp"
+        ],
+        "sha1_after": "b00782463da095b1c84ce930d53f4a4f68418d92",
+        "audit": {
+          "process": {
+            "name": "/etc/sample",
+            "id": 15342,
+            "ppid": 52673
+          },
+          "effective_user": {
+            "name": "LOCAL Service",
+            "id": 39
+          },
+          "user": {
+            "name": "Administrators",
+            "id": 41
+          },
+          "group": {
+            "name": "SYSTEM",
+            "id": 79
+          }
+        },
+        "md5_after": "f53cb8122230351b9d85d3e87439a849",
+        "sha256_after": "de7f45ecedaa2c087dc8c3e9cf0370c0a4cf6de8c86174b8cbaf4dcfc81e"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "F3Gmr3QB4YtWQbLv1ivc",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-14T12:23:33.514+0000",
+      "rule": {
+        "firedtimes": 2,
+        "mail": false,
+        "level": 7,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "Integrity checksum changed.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "550",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "007",
+        "name": "Debian",
+        "ip": "24.273.97.14"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "modified",
+        "path": "/etc/resolv.conf",
+        "uname_after": "suricata",
+        "gname_after": "root",
+        "mtime_after": "2020-09-16T19:14:30.587Z",
+        "size_after": 62,
+        "uid_after": "996",
+        "gid_after": "994",
+        "perm_after": "rw-r--r--",
+        "inode_after": 36475,
+        "mtime_before": "2020-09-16T19:13:30.587Z",
+        "inode_before": 40728,
+        "sha1_after": "1b3389c8e916f44bbf464c699d819f397f9b8c3c",
+        "changed_attributes": [
+          "sha256"
+        ],
+        "md5_after": "616a6bef73b73b960e9730a731fdee59",
+        "sha256_after": "3e8f2034b3f0b0ca39b18da986a1e5d6660fb7ab01c134ca4d9eda398dc3"
+      }
+    }
+  },
+  {
+    "_index": "wazuh-alerts-4.x-sample-security",
+    "_type": "_doc",
+    "_id": "GHGmr3QB4YtWQbLv1ivc",
+    "_score": 1.0,
+    "_source": {
+      "@sampledata": true,
+      "timestamp": "2020-09-19T13:01:35.365+0000",
+      "rule": {
+        "firedtimes": 1,
+        "mail": false,
+        "level": 5,
+        "pci_dss": [
+          "11.5"
+        ],
+        "hipaa": [
+          "164.312.c.1",
+          "164.312.c.2"
+        ],
+        "description": "File added to the system.",
+        "groups": [
+          "ossec",
+          "syscheck"
+        ],
+        "id": "554",
+        "nist_800_53": [
+          "SI.7"
+        ],
+        "gpg13": [
+          "4.11"
+        ],
+        "gdpr": [
+          "II_5.1.f"
+        ]
+      },
+      "agent": {
+        "id": "006",
+        "name": "Windows",
+        "ip": "207.45.34.78"
+      },
+      "manager": {
+        "name": "wazuh-master"
+      },
+      "cluster": {
+        "name": "wazuh"
+      },
+      "id": "1580123327.49031",
+      "predecoder": {},
+      "decoder": {},
+      "data": {},
+      "location": "",
+      "syscheck": {
+        "event": "added",
+        "path": "[x32] HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\RunTime",
+        "uname_after": "root",
+        "gname_after": "root",
+        "mtime_after": "2020-09-19T10:19:15.995Z",
+        "size_after": 38,
+        "uid_after": "S-1-5-19",
+        "gid_after": "190",
+        "perm_after": "rw-r--r--",
+        "inode_after": 23125
+      }
+    }
+  }
+]
