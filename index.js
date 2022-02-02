@@ -5,11 +5,11 @@ const app = express();
 app.get('/', (req, res) => {
   res
     .status(200)
-    .send('<h1>Welcome to Alerts API 😀</h1> <p>put the endpoint for easy use</p> \
+    .send('<h1>Welcome to Alerts API 😀</h1> <p>Put an endpoint for easy use</p> \
+    <p>For the first 3 items you need to put a offset and a limit values like this: url?offset=numbre&limit=numbrer</p>\
     <li> /alerts </li>\
     <li> /agents</li>\
     <li>/rules</li>\
-    <p>For this first 3 items you need to put a offset and limit values like this: url?offset=numbre&limit=numbrer</p>\
     <li> /agents/id</li>\
     <li>/rules/id</li>')
     .end();
