@@ -9,6 +9,7 @@ app.get('/', (req, res) => {
     <li> /alerts </li>\
     <li> /agents</li>\
     <li> /agents/id</li>\
+    <p>For this first 3 items you need to put a offset and limit values like this: url?offset=numbre&limit=numbrer</p>\
     <li>/rules</li>\
     <li>/rules/id</li>')
     .end();
