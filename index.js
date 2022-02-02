@@ -8,9 +8,9 @@ app.get('/', (req, res) => {
     .send('<h1>Welcome to Alerts API 😀</h1> <p>put the endpoint for easy use</p> \
     <li> /alerts </li>\
     <li> /agents</li>\
-    <li> /agents/id</li>\
-    <p>For this first 3 items you need to put a offset and limit values like this: url?offset=numbre&limit=numbrer</p>\
     <li>/rules</li>\
+    <p>For this first 3 items you need to put a offset and limit values like this: url?offset=numbre&limit=numbrer</p>\
+    <li> /agents/id</li>\
     <li>/rules/id</li>')
     .end();
 });
